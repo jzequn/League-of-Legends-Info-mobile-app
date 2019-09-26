@@ -46,10 +46,6 @@ AboutScreen.navigationOptions = (navData) => {
     )
   }
 
-<<<<<<< HEAD
-}
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -79,6 +75,4 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
 });
-=======
 }
->>>>>>> 41c326c72749e44b3bb667147c2dc0e928d00899

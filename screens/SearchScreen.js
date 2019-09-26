@@ -49,6 +49,7 @@ export default function SearchScreen(props) {
             const oneMatch = createMatch(match);
             matchList.push(oneMatch);
         }
+        setMatch(matchList);
     }
 
 
@@ -126,12 +127,12 @@ export default function SearchScreen(props) {
                 onChangeText={updateSearch}
                 value={search}
             />
-    <Button title="Confirm" onPress={(props) => searchSummonerHandler()} />
-    {
-        match.length > 0 ? <FlatList data={match} renderItem={({ item }) => renderMatch(item)}
-            keyExtractor={(item, index) => '' + index}
-        /> : null
-    }
+            <Button title="Confirm" onPress={() => searchSummonerHandler()} />
+            {
+                match.length > 0 ? <FlatList data={match} renderItem={({ item }) => renderMatch(item)}
+                    keyExtractor={(item, index) => '' + index}
+                /> : null
+            }
         </View >
 
     );
@@ -163,7 +164,6 @@ const styles = StyleSheet.create({
         paddingTop: 15,
         backgroundColor: '#fff',
     },
-<<<<<<< HEAD
     cardLayout: {
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -186,6 +186,4 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: "500",
     },
-=======
->>>>>>> 41c326c72749e44b3bb667147c2dc0e928d00899
 });
