@@ -18,7 +18,7 @@ export default function AboutScreen() {
           <Text>Feel free to contacts us if you have any questions and ideas</Text>
         </View>
       </View>
-      <View style={styles.cardLayout}>
+      <View style={styles.cardLayout}>ƒ
         <View style={styles.card}>
           <Text>Email Address: jzequn@gmail.com</Text>
           <Text>Phone: +64-123-4567</Text>
@@ -46,6 +46,7 @@ AboutScreen.navigationOptions = (navData) => {
     )
   }
 
+<<<<<<< HEAD
 }
 
 
@@ -78,3 +79,6 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
 });
+=======
+}
+>>>>>>> 41c326c72749e44b3bb667147c2dc0e928d00899

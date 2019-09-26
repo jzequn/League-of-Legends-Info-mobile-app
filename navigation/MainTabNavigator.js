@@ -131,9 +131,15 @@ const AccountStack = createStackNavigator(
 AccountStack.path = '';
 
 const tabNavigator = createBottomTabNavigator({
+<<<<<<< HEAD
 
   ChampionStack,
   SearchStack,
+=======
+  SearchStack,
+  ChampionStack,
+
+>>>>>>> 41c326c72749e44b3bb667147c2dc0e928d00899
   ItemStack,
 });
 
