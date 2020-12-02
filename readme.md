@@ -1,12 +1,15 @@
 # App
 
-## dependencies
+## Dependencies
 
 1. axios 'npm install --save axios'
 
 2. uuid 'npm install react-native-uuid --save'
+
    'npm install buffer --save'
+
 3. npm install react-native-elements
+
    npm install --save react-native-touchable-scale
 
 <!-- icons -->
@@ -27,9 +30,9 @@ npm i --save @fortawesome/free-solid-svg-icons
 
 2. 安装 bottomTabNavigation
 
-3.修改 Tab Labels 为自己想要的展示内容
+3. 修改 Tab Labels 为自己想要的展示内容
 
-4.获取 api 数据
+4. 获取 api 数据
 
 5.
 
@@ -47,8 +50,18 @@ npm i --save @fortawesome/free-solid-svg-icons
 
 4.[Text · React Native](https://facebook.github.io/react-native/docs/text#style)
 
-## reading
+## Reading
 
 [Problems fetching data from an API - JavaScript - The freeCodeCamp Forum](https://www.freecodecamp.org/forum/t/problems-fetching-data-from-an-api/227186/5)
 
 [Destructuring assignment - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+## Git
+
+[The “fatal: refusing to merge unrelated histories” Git error](https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error)
+
+[Git fetch remote branch - Stack Overflow](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
+
+## Report
+
+[Update report](/report.md)

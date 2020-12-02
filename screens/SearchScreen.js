@@ -11,7 +11,7 @@ import MatchScreen from '../screens/MatchScreen'
 
 export default function SearchScreen(props) {
     const [search, setSearch] = useState('');
-    const apiKey = "RGAPI-2358f67f-f55d-4a3b-9f45-71e72aa3490b";
+    const apiKey = "RGAPI-6ad72107-cd8b-4b1c-a94a-ea513355a899";
     let summoner;
     const matchList = [];
     const matchObjectList = [];
